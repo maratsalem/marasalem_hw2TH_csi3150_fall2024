@@ -4,56 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mara Salem Portfolio</title>
-    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaaIhi6tdNnA4B__uyghXaNlA8HSSfpZihIg&s"
+      type="image/x-icon"
+    />
   </head>
-
-  <body>
-    <header>
-      <!-- Home page title -->
-      <div>
-        <h1 id="primary-heading" class="heading-group">Mara Salem Portfolio</h1>
+  <main>
+    <body>
+      <header>
+        <!-- Home page title -->
+        <div>
+          <h1 id="primary-heading" class="heading-group">
+            Mara Salem Portfolio
+          </h1>
+        </div>
+        <!-- navigation menu -->
+        <nav>
+          <ul>
+            <li><a href="html/my_resume.html">Resume</a></li>
+            <li><a href="html/my_fun_facts.html">Get to Know Me</a></li>
+            <li><a href="mailto:fakemail@oakland.edu">Contact Me</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- image of me -->
+      <div class="self-image-wrapper" align="center">
+        <!-- https://www.geeksforgeeks.org/html-align-attribute/ for later reference -->
+        <img
+          src="./assets/img/20231214_212806.jpg"
+          alt="Image of Mara Salem"
+          class="self-image"
+          width="20%"
+          height="75%"
+        />
       </div>
-      <!-- navigation menu -->
-      <nav>
-        <ul>
-          <li><a href="./html/my_resume.html">Resume</a></li>
-          <li><a href="./html/my_fun_facts.html">Get to Know Me</a></li>
-          <li><a href="mailto:marasalem@oakland.edu">Contact Me</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- image of me -->
-    <div class="self-image-wrapper">
-      <img src="#" alt="Image of Mara Salem" class="self-image" />
-    </div>
-    <!-- elevator pitch/professional about me section -->
-    <section class="elevator-pitch">
-      <p>
-        A brief paragraph or two introducing yourself to your audience. This is
-        sometimes called an elevator pitch. Tell them who you are where are you
-        from (little bit of your background), what is your current professional
-        affiliation, what are your prior professional and what are your future
-        professional interest. This content should be ended by linking to your
-        other two pages by stating something like - "to know more about me check
-        out my
-        <a href="./html/my_resume.html">resume</a> or some
-        <a href="./html/my_fun_facts.html">fun facts.</a>
-      </p>
-    </section>
-    <!-- progress to graduation -->
-    <!-- reference for later https://www.codecademy.com/resources/docs/html/semantic-html/progress-->
-    <div class="progress-wrapper">
-      <span>Progress to Graduation:</span>
-      <progress id="progress-bar" value="98" max="100"></progress>
-    </div>
-  </body>
+      <!-- elevator pitch/professional about me section -->
+      <section class="elevator-pitch">
+        <article>
+          <p align="center">
+            Hi there! I'm a senior at Oakland University studying Computer
+            Science. I've developed a strong foundation in programming languages
+            like Java and C through my coursework and personal projects. A
+            project I like to highlight is called Notely, where I helped design
+            and implement a studying application that emphasizes user experience
+            and efficiency. While I don’t have a formal professional affiliation
+            yet, I’m eager to gain real-world experience in fields such as web
+            development and software engineering. To learn more about me, check
+            out my
+            <a href="./html/my_resume.html">resume</a> or some
+            <a href="./html/my_fun_facts.html">fun facts.</a>
+          </p>
+        </article>
+      </section>
 
+      <!-- progress to graduation -->
+      <!-- reference for later https://www.codecademy.com/resources/docs/html/semantic-html/progress-->
+      <div class="progress-wrapper">
+        <span>Progress to Degree Completion:</span>
+        <progress id="progress-bar" value="98" max="100"></progress>
+      </div>
+    </body>
+  </main>
   <hr />
   <footer>
-    <section class="end-of-homepage">
-      <a href="mailto:marasalem@oakland.edu">Contact Me</a>
-      <a href="https://www.linkedin.com/in/mara-salem/">LinkedIn</a>
-      <a href="index.html#primary-heading">Back To Top</a>
-    </section>
+    <div class="end-of-homepage">
+      <ul>
+        <li><a href="mailto:fakemail@oakland.edu">Contact Me</a></li>
+        <li><a href="https://www.linkedin.com">LinkedIn</a></li>
+        <li><a href="index.html#primary-heading">Back To Top</a></li>
+      </ul>
+    </div>
   </footer>
 </html>
