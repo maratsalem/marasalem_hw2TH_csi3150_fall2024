@@ -10,7 +10,7 @@
       type="image/x-icon"
     />
   </head>
-  <!-- when developing css, make sure to remove center tags and align= from html code in each page -->
+  <!-- Main content area of the webpage -->
   <main>
     <body>
       <header>
@@ -20,19 +20,22 @@
             Mara Salem Portfolio
           </h1>
         </div>
-        <!-- navigation menu -->
+        <!-- Navigation menu for the portfolio -->
         <nav>
           <ul>
             <li><a href="html/my_resume.html">Resume</a></li>
+            <!-- Link to resume page -->
             <li><a href="html/my_fun_facts.html">Get to Know Me</a></li>
+            <!-- Link to fun facts page -->
             <li><a href="mailto:fakemail@oakland.edu">Contact Me</a></li>
+            <!-- Mailto link for contact -->
           </ul>
         </nav>
       </header>
-      <!-- image of me -->
+      <!-- Section containing personal image and quote -->
       <section class="image-quote">
         <div class="self-image-wrapper" align="center">
-          <!-- https://www.geeksforgeeks.org/html-align-attribute/ for later reference -->
+          <!-- Wrapper for self-image -->
           <img
             src="./assets/img/20231214_212806.jpg"
             alt="Image of Mara Salem"
@@ -42,6 +45,7 @@
           />
         </div>
         <div class="quote" align="center">
+          <!-- Wrapper for the quote -->
           <p>
             <strong
               >"Listen--are you breathing just a little, and calling it a
@@ -52,7 +56,8 @@
         </div>
       </section>
 
-      <!-- elevator pitch/professional about me section -->
+      <!-- Elevator pitch/professional about me section -->
+      <!-- maybe change to div wrap to make align="center" consistent for divs -->
       <section class="elevator-pitch">
         <article>
           <p align="center">
@@ -68,26 +73,27 @@
         </article>
       </section>
 
-      <!-- progress to graduation -->
-      <!-- style this differently eventually -->
-      <!-- reference for later https://www.codecademy.com/resources/docs/html/semantic-html/progress-->
+      <!-- Progress to graduation section -->
       <div class="progress-wrapper">
+        <!-- Wrapper for the progress bar -->
         <span>Progress to Degree Completion:</span>
         <progress id="progress-bar" value="98" max="100"></progress>
       </div>
     </body>
   </main>
 
-  <!-- separate footer from rest -->
-
   <hr />
+  <!-- Horizontal rule to separate footer from main content -->
   <footer>
     <div class="end-of-homepage">
       <ul>
-        <!-- no copyright needed -->
+        <!-- Footer links -->
         <li><a href="mailto:fakemail@oakland.edu">Contact Me</a></li>
+        <!-- Mailto link for contact -->
         <li><a href="https://www.linkedin.com">LinkedIn</a></li>
+        <!-- Link to LinkedIn profile -->
         <li><a href="index.html#primary-heading">Back To Top</a></li>
+        <!-- Link to scroll back to the top of the page -->
       </ul>
     </div>
   </footer>
