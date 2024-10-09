@@ -17,6 +17,8 @@
 }
 
 main {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   background-color: var(--bg-primary);
 }
@@ -138,7 +140,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   width: 450px;
-  padding: 0 50px;
+  padding: 0 30px;
   color: var(--bg-primary);
 }
 
@@ -152,7 +154,7 @@ footer {
   font-size: 18px;
   transition: color 0.3 ease; /* animation must be triggered by an event */
 }
-/* the event that triggers line 54 and specify outcome of transition */
+
 .nav-footer li:hover a {
   color: var(--font-color-primary);
 }

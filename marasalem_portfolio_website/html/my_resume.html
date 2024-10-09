@@ -9,142 +9,155 @@
       href="../assets/img/OU_logo.jpeg"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="./css/portfolio-stylesheet.css" />
+    <link rel="stylesheet" href="../css/resume-stylesheet.css" />
   </head>
-
   <body>
-    <header>
-      <!-- Resume page title -->
-      <div>
+    <main>
+      <header class="navbar">
+        <!-- Resume page title -->
         <h1 id="primary-heading" class="heading-group">Mara Salem Resume</h1>
-        <!-- Main heading for the resume -->
-      </div>
-      <!-- Navigation menu -->
-      <nav>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <!-- Link to the home page -->
-          <li><a href="./my_fun_facts.html">Get to Know Me</a></li>
-          <!-- Link to the fun facts page -->
-          <li><a href="mailto:fakemail@oakland.edu">Contact Me</a></li>
-          <!-- Mailto link for contact -->
-        </ul>
-      </nav>
-    </header>
+        <!-- Navigation menu -->
+        <nav class="navbar-items">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <!-- Link to the home page -->
+            <li><a href="./my_fun_facts.html">Get to Know Me</a></li>
+            <!-- Link to the fun facts page -->
+            <li><a href="mailto:fakemail@oakland.edu">Contact Me</a></li>
+            <!-- Mailto link for contact -->
+          </ul>
+        </nav>
+      </header>
+      <hr />
+      <div class="resume-section">
+        <!-- Contact information section -->
+        <div class="contact-info">
+          <h2>Contact Information</h2>
 
-    <!-- Contact information section -->
-    <div class="contact">
-      <section class="contact-info">
-        <header class="contact-title">
-          <h2>Contact</h2>
           <!-- Subheading for contact information -->
-        </header>
-        <p>Email: fakemail@gmail.com</p>
-        <p>Cell: 123-456-7890</p>
-        <p>Address: 10 Farm Rd., Crimea, Tellius, 091019</p>
+          <p>Email: fakemail@gmail.com</p>
+          <p>Cell: 123-456-7890</p>
+          <p>Address: 10 Farm Rd., Crimea, Tellius, 091019</p>
+        </div>
+
+        <!--     <div class="skills-list">
+        <ul>
+          <li>skill</li>
+          <li>skill</li>
+          <li>skill</li>
+          <li>skill</li>
+          <li>skill</li>
+          <li>skill</li>
+          <li>skill</li>
+          <li>skill</li>
+          <li>skill</li>
+          <li>skill</li>
+        </ul>
+      </div>
+ -->
+        <!-- Main resume content: objective statement, professional experience, education -->
+        <!-- Objective statement -->
+        <div class="objective-statement">
+          <h3>
+            Objective: Highly motivated student seeking new opportunities to
+            utilize my strong coding skills to create meaningful, user-friendly
+            applications.
+          </h3>
+        </div>
+
+        <!-- Professional experience section -->
+
+        <div class="professional-exp">
+          <h3>Professional Experience</h3>
+
+          <!-- Job 1 -->
+          <div class="job-list">
+            <p>
+              <strong class="job-title"
+                >Winter 2022 - Present, Computer Science Tutor, Oakland
+                University, Rochester Hills, MI</strong
+              >
+            </p>
+            <p>
+              I work with students individually or in a group setting to help
+              foster a better understanding of coursework and computer science
+              fundamentals.
+            </p>
+          </div>
+          <!-- Job 2 -->
+          <div class="job-list">
+            <p>
+              <strong
+                >May 2023 - August 2023, Employee, Michaels Craft Store, Novi,
+                MI</strong
+              >
+            </p>
+            <p>
+              Provided excellent customer service by assisting customers in
+              finding the right art and craft supplies. Demonstrated a strong
+              work ethic and adaptability in a fast-paced retail environment.
+              Assisted in training new team members and onboarding them to store
+              procedures
+            </p>
+          </div>
+        </div>
+
+        <!-- Educational experience section -->
+        <div class="educational-div">
+          <h3 class="educational-title">Educational Experience</h3>
+
+          <table class="educational-exp">
+            <!-- Table for educational qualifications -->
+            <thead>
+              <tr>
+                <th>Start -- End</th>
+                <!-- Column for start and end dates -->
+                <th>Degree</th>
+                <!-- Column for degree information -->
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Fall 2021 -- Winter 2025</td>
+                <!-- Date range for degree -->
+                <td>
+                  Bachelor of Science in Computer Science, Oakland University,
+                  Rochester Hills, MI
+                  <!-- Degree information -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Hobbies and extracurricular interests section -->
+      <section class="hobbies">
+        <div class="hobbies-div">
+          <h3>Extracurricular Interests and Hobbies</h3>
+          <!-- Subheading for hobbies -->
+          <p>
+            In my free time, I enjoy cooking and playing my guitar, as well as
+            going for walks.
+          </p>
+        </div>
       </section>
-    </div>
+    </main>
 
-    <!-- Main resume content: objective statement, professional experience, education -->
-    <section class="resume-section">
-      <!-- Objective statement -->
-      <div class="objective-statement">
-        <h3>
-          Objective: Highly motivated student seeking new opportunities to
-          utilize my strong coding skills to create meaningful, user-friendly
-          applications.
-        </h3>
-      </div>
+    <!-- Separate footer from the rest of the content -->
+    <hr />
 
-      <!-- Professional experience section -->
-      <div class="prof-title">
-        <h3>Professional Experience</h3>
-        <!-- Subheading for professional experience -->
-      </div>
-      <div class="professional-exp">
-        <!-- Job 1 -->
-        <div class="job-list">
-          <p>
-            <strong
-              >Winter 2022 - Present, Computer Science Tutor, Oakland
-              University, Rochester Hills, MI</strong
-            >
-          </p>
-          <p>
-            I work with students individually or in a group setting to help
-            foster a better understanding of coursework and computer science
-            fundamentals.
-          </p>
-        </div>
-        <!-- Job 2 -->
-        <div class="job-list">
-          <p>
-            <strong
-              >May 2023 - August 2023, Employee, Michaels Craft Store, Novi,
-              MI</strong
-            >
-          </p>
-          <p>
-            Provided excellent customer service by assisting customers in
-            finding the right art and craft supplies. Demonstrated a strong work
-            ethic and adaptability in a fast-paced retail environment. Assisted
-            in training new team members and onboarding them to store procedures
-          </p>
-        </div>
-      </div>
-
-      <!-- Educational experience section -->
-      <div class="educational-exp">
-        <table class="educational-exp">
-          <!-- Table for educational qualifications -->
-          <thead>
-            <tr>
-              <th>Start -- End</th>
-              <!-- Column for start and end dates -->
-              <th>Degree</th>
-              <!-- Column for degree information -->
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Fall 2021 -- Winter 2025</td>
-              <!-- Date range for degree -->
-              <td>
-                Bachelor of Science in Computer Science, Oakland University,
-                Rochester Hills, MI
-                <!-- Degree information -->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <!-- Hobbies and extracurricular interests section -->
-    <section class="hobbies">
-      <div class="hobbies">
-        <h3>Extracurricular Interests and Hobbies</h3>
-        <!-- Subheading for hobbies -->
-        <p>
-          In my free time, I enjoy cooking and playing my guitar, as well as
-          going for walks.
-        </p>
-      </div>
-    </section>
-  </body>
-
-  <!-- Separate footer from the rest of the content -->
-  <hr />
-  <footer>
-    <div class="end-of-homepage">
-      <ul>
+    <footer>
+      <ul class="nav-footer">
+        <!-- Footer links -->
         <li><a href="mailto:fakemail@oakland.edu">Contact Me</a></li>
         <!-- Mailto link for contact -->
         <li><a href="https://www.linkedin.com">LinkedIn</a></li>
         <!-- Link to LinkedIn profile -->
-        <li><a href="my_resume.html#primary-heading">Back To Top</a></li>
+        <li><a href="index.html#primary-heading">Back To Top</a></li>
         <!-- Link to scroll back to the top of the page -->
       </ul>
-    </div>
-  </footer>
+    </footer>
+  </body>
 </html>
