@@ -9,17 +9,24 @@
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
   /* set variables for colors */
-  --bg-primary: #fdf0d5;
-  --bg-secondary: #6c5c64;
-  --font-color-primary: #00171f;
-  --font-color-secondary: #fdf0d5;
-  --backup-color: rgb(40, 83, 107);
+  --bg-primary: #d4d8f0;
+  --bg-secondary: #232946;
+  --font-color-primary: #232946;
+  --font-color-secondary: #fffffe;
+  --backup-color-primary: #eebbc3;
+  --backup-color-secondary: #b8c1ec;
+}
+
+body {
+  min-height: 100%;
+  background-color: var(--bg-primary);
+  display: flex;
+  flex-direction: column;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--bg-primary);
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* style the nav */
@@ -28,12 +35,12 @@ main {
   align-items: center;
   justify-content: space-between;
   height: 100px;
-  margin-right: 20px;
-  padding: 0 30px;
+  padding: 0 45px;
+  background: var(--bg-secondary);
 }
 
 .navbar h1 {
-  color: var(--font-color-primary);
+  color: var(--font-color-secondary);
   font-weight: 700;
   font-size: 30px;
   padding: 0 10px;
@@ -49,14 +56,14 @@ main {
 
 .navbar ul li a {
   text-decoration: none;
-  color: var(--font-color-primary);
+  color: var(--font-color-secondary);
   font-size: 18px;
   margin-right: 25px;
   transition: color 0.3 ease; /* animation must be triggered by an event */
 }
 /* the event that triggers line 54 and specify outcome of transition */
 .navbar ul li:hover a {
-  color: var(--backup-color);
+  color: var(--backup-color-secondary);
 }
 
 /* remove margin of rightmost list item: see line 53 */
@@ -65,10 +72,9 @@ main {
 }
 
 hr {
-  border-color: var(--backup-color);
-  background-color: var(--backup-color);
-  height: 2px;
-  border: 1px;
+  background-color: var(--bg-secondary);
+  height: 3px;
+  border: 0;
 }
 
 .favbook {
@@ -131,10 +137,11 @@ hr {
 }
 
 footer {
-  height: 100px;
-  background: var(--bg-secondary);
+  margin-top: auto;
+  height: 75px;
   display: flex;
   align-items: center;
+  background-color: var(--bg-secondary);
 }
 
 .nav-footer {
